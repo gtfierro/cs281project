@@ -1,0 +1,2828 @@
+[
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "1", 
+        "VAV": "S4-01", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1711", 
+        "SensorType": "THL", 
+        "SerialNumber": "51:d2:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "53inch", 
+        "Orientation": "west", 
+        "RoomNumber": "413", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttygs00/1711/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "559f45e2-1db7-51cb-a173-fe4f567ce00f"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "1", 
+        "VAV": "S4-01", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1711", 
+        "SensorType": "THL", 
+        "SerialNumber": "51:d2:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "53inch", 
+        "Orientation": "west", 
+        "RoomNumber": "413", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttygs00/1711/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "b7379dca-b239-508c-9e4f-4773068680ae"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "1", 
+        "VAV": "S4-01", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1711", 
+        "SensorType": "THL", 
+        "SerialNumber": "51:d2:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "53inch", 
+        "Orientation": "west", 
+        "RoomNumber": "413", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttygs00/1711/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "810128b9-7721-58fe-aa45-28725dcbc185"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "10", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1708", 
+        "SensorType": "THL", 
+        "SerialNumber": "6c:b2:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "45.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "442", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1708/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "8cb304ac-bacd-594e-abb8-f74234998ec7"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "10", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1708", 
+        "SensorType": "THL", 
+        "SerialNumber": "6c:b2:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "45.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "442", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1708/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "ec8e218d-236b-568d-af2b-ac36703d2a05"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "10", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1708", 
+        "SensorType": "THL", 
+        "SerialNumber": "6c:b2:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "45.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "442", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1708/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "93ca72b0-1543-5504-b209-3f11d45f0f00"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "11", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1707", 
+        "SensorType": "THL", 
+        "SerialNumber": "a:c0:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "47inch", 
+        "Orientation": "core", 
+        "RoomNumber": "444", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1707/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "e5a30cdf-e20f-5151-894a-fae2acc344b8"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "11", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1707", 
+        "SensorType": "THL", 
+        "SerialNumber": "a:c0:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "47inch", 
+        "Orientation": "core", 
+        "RoomNumber": "444", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1707/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "20be1207-238d-5f31-a23b-c072908fe80c"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "11", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1707", 
+        "SensorType": "THL", 
+        "SerialNumber": "a:c0:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "47inch", 
+        "Orientation": "core", 
+        "RoomNumber": "444", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1707/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "0bfbd947-40a2-5454-a352-1375790c604d"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "12", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1706", 
+        "SensorType": "THL", 
+        "SerialNumber": "a1:ab:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "446", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1706/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "b2e4e919-54cb-5a53-8850-e780cdce68f2"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "12", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1706", 
+        "SensorType": "THL", 
+        "SerialNumber": "a1:ab:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "446", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1706/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "b4336e31-0fdc-5d98-b548-011d754777c4"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "12", 
+        "VAV": "S4-05", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1706", 
+        "SensorType": "THL", 
+        "SerialNumber": "a1:ab:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "446", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1706/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "27e71c02-6a7c-5d29-9d7e-3b437f9f6c46"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "13", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1705", 
+        "SensorType": "THL", 
+        "SerialNumber": "1a:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "448", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1705/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "366f3fc8-b65f-57dd-b4d2-b30ddeffe63d"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "13", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1705", 
+        "SensorType": "THL", 
+        "SerialNumber": "1a:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "448", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1705/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "d51d71cd-b425-5155-a41b-bee4fb476771"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "13", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1705", 
+        "SensorType": "THL", 
+        "SerialNumber": "1a:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "448", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1705/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "941666b0-32f7-5801-8a86-880fdfb4264e"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "14", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1704", 
+        "SensorType": "THL", 
+        "SerialNumber": "ca:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "452", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1704/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "99340663-ceae-5806-bf06-5720b707ad3a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "14", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1704", 
+        "SensorType": "THL", 
+        "SerialNumber": "ca:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "452", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1704/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "c624b849-4757-5353-b975-86e7b13921ec"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "14", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1704", 
+        "SensorType": "THL", 
+        "SerialNumber": "ca:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "452", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1704/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "2a429ff1-c527-5a57-8de2-716f7dadbddf"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "15", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1703", 
+        "SensorType": "THL", 
+        "SerialNumber": "93:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "454", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttycn00/1703/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "79e68e2b-870f-564b-90fc-f3a591fce41a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "15", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1703", 
+        "SensorType": "THL", 
+        "SerialNumber": "93:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "454", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttycn00/1703/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "88016920-681f-58ff-8e0d-b55d8e07bc10"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "15", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1703", 
+        "SensorType": "THL", 
+        "SerialNumber": "93:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "454", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttycn00/1703/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "e393d3d3-0b04-5e65-89ca-db9194d3446a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "16", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1701", 
+        "SensorType": "THL", 
+        "SerialNumber": "65:b7:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "456", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyhb00/1701/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "d6e29562-39fb-5a9b-af5b-90c941e6f02c"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "16", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1701", 
+        "SensorType": "THL", 
+        "SerialNumber": "65:b7:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "456", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyhb00/1701/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "c79020d0-c006-5096-b41d-52854c300277"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "16", 
+        "VAV": "S4-09", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1701", 
+        "SensorType": "THL", 
+        "SerialNumber": "65:b7:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "456", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyhb00/1701/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "820aa149-bfc7-5a4e-97cb-c96dbdfd3e58"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "17", 
+        "VAV": "S4-15", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1702", 
+        "SensorType": "THL", 
+        "SerialNumber": "e9:ac:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "458", 
+        "RoomType": "conference"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1702/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "c9a0be9e-1085-580f-9926-eaec882afb45"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "17", 
+        "VAV": "S4-15", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1702", 
+        "SensorType": "THL", 
+        "SerialNumber": "e9:ac:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "458", 
+        "RoomType": "conference"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1702/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "5d760347-f5f5-59f3-8743-b06dc041da7b"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "17", 
+        "VAV": "S4-15", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1702", 
+        "SensorType": "THL", 
+        "SerialNumber": "e9:ac:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "458", 
+        "RoomType": "conference"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1702/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "9165f400-355d-506a-8afa-421273d02010"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "18", 
+        "VAV": "S4-16", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1709", 
+        "SensorType": "THL", 
+        "SerialNumber": "42:d3:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "H", 
+        "Orientation": "core", 
+        "RoomNumber": "462", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1709/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "5791b073-9fd3-5d54-ab8b-38c8d84079a7"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "18", 
+        "VAV": "S4-16", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1709", 
+        "SensorType": "THL", 
+        "SerialNumber": "42:d3:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "H", 
+        "Orientation": "core", 
+        "RoomNumber": "462", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1709/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "108d06cb-56e4-5a1f-a36a-9eea2cdf4c87"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "18", 
+        "VAV": "S4-16", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1709", 
+        "SensorType": "THL", 
+        "SerialNumber": "42:d3:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "H", 
+        "Orientation": "core", 
+        "RoomNumber": "462", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1709/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "19dac044-e8ae-5ed4-a789-a46d2cd9d375"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "2", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1712", 
+        "SensorType": "THL", 
+        "SerialNumber": "44:d6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "28.5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "415", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1712/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "f30060c4-f6c8-55ea-93df-8e6485ee47c5"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "2", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1712", 
+        "SensorType": "THL", 
+        "SerialNumber": "44:d6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "28.5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "415", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1712/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "34b2c543-6875-5d44-99f1-5ff9c26f41bc"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "2", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1712", 
+        "SensorType": "THL", 
+        "SerialNumber": "44:d6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "28.5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "415", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1712/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "2e22715f-9d3e-5c5d-b90c-8b6226e29cca"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "3", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1713", 
+        "SensorType": "THL", 
+        "SerialNumber": "ed:a5:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "417", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1713/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "570e4029-94ea-5de7-85ef-edd3aeb53fe2"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "3", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1713", 
+        "SensorType": "THL", 
+        "SerialNumber": "ed:a5:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "417", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1713/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "a0e3c63b-d90f-5797-ae85-0d9fbc9ab54a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "3", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1713", 
+        "SensorType": "THL", 
+        "SerialNumber": "ed:a5:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46.5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "417", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1713/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "31e75b66-41bf-518d-a144-f3e144f396e5"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "4", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1714", 
+        "SensorType": "THL", 
+        "SerialNumber": "6f:9e:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46,5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "419", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1714/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "4e072cd5-7bbb-5de9-a51e-0c6b35f29466"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "4", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1714", 
+        "SensorType": "THL", 
+        "SerialNumber": "6f:9e:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46,5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "419", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1714/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "f54e33fe-b850-5201-93f5-9fdde1c4aef6"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "4", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1714", 
+        "SensorType": "THL", 
+        "SerialNumber": "6f:9e:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46,5inch", 
+        "Orientation": "north", 
+        "RoomNumber": "419", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1714/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "87454c8d-317c-5265-808e-5f5497908008"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "5", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1715", 
+        "SensorType": "THL", 
+        "SerialNumber": "f8:ca:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "51inch", 
+        "Orientation": "north", 
+        "RoomNumber": "421", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1715/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "0e4d0f74-a216-524d-9126-1f565dd5aabb"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "5", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1715", 
+        "SensorType": "THL", 
+        "SerialNumber": "f8:ca:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "51inch", 
+        "Orientation": "north", 
+        "RoomNumber": "421", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1715/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "5f93b52d-8043-55b7-9afe-faea04d26141"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "5", 
+        "VAV": "S4-06", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1715", 
+        "SensorType": "THL", 
+        "SerialNumber": "f8:ca:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "51inch", 
+        "Orientation": "north", 
+        "RoomNumber": "421", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1715/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "1f17fd93-8009-5153-926f-54395c421d93"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "6", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1717", 
+        "SensorType": "THL", 
+        "SerialNumber": "56:ad:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "45.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "422", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1717/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "ba33ed68-94c4-568a-a169-ee37f6103022"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "6", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1717", 
+        "SensorType": "THL", 
+        "SerialNumber": "56:ad:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "45.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "422", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1717/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "2d9fbe92-28ba-558f-b4e8-e92a1ee80c3a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "6", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1717", 
+        "SensorType": "THL", 
+        "SerialNumber": "56:ad:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "45.5inch", 
+        "Orientation": "core", 
+        "RoomNumber": "422", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1717/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "8a14b3e3-6f4c-5dd5-b39e-d6ebfc66112d"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "7", 
+        "VAV": "S4-08", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1716", 
+        "SensorType": "THL", 
+        "SerialNumber": "e2:cc:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "north", 
+        "RoomNumber": "423", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1716/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "a4c3bd6d-409b-56d8-b6dc-8f14801ef06b"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "7", 
+        "VAV": "S4-08", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1716", 
+        "SensorType": "THL", 
+        "SerialNumber": "e2:cc:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "north", 
+        "RoomNumber": "423", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1716/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "c97c70c5-9370-5af4-94c9-25cc3aea7801"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "7", 
+        "VAV": "S4-08", 
+        "WindowType": "operable"
+      }, 
+      "Instrument": {
+        "PartNumber": "1716", 
+        "SensorType": "THL", 
+        "SerialNumber": "e2:cc:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "north", 
+        "RoomNumber": "423", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1716/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "3d4496b0-63e8-5d88-890a-cbce6f1202a6"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "8", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1718", 
+        "SensorType": "THL", 
+        "SerialNumber": "5c:c9:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "50inch", 
+        "Orientation": "core", 
+        "RoomNumber": "424", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1718/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "76000ce5-474b-5231-b985-71690503906a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "8", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1718", 
+        "SensorType": "THL", 
+        "SerialNumber": "5c:c9:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "50inch", 
+        "Orientation": "core", 
+        "RoomNumber": "424", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1718/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "9cf93c1f-4d22-54f4-b106-aaf3f751ba5d"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "8", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1718", 
+        "SensorType": "THL", 
+        "SerialNumber": "5c:c9:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "50inch", 
+        "Orientation": "core", 
+        "RoomNumber": "424", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1718/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "259c7603-b407-5a96-be63-5464cda31acf"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "9", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1719", 
+        "SensorType": "THL", 
+        "SerialNumber": "6b:9f:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "426", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1719/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "3b2ed8ed-8e1a-5a08-9198-dcdbed1d9e5e"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "9", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1719", 
+        "SensorType": "THL", 
+        "SerialNumber": "6b:9f:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "426", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1719/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "9c2ff1dc-2c24-5819-ba75-35e3d8fcbb57"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "SamplingRate": "5sec", 
+        "SetNumber": "9", 
+        "VAV": "S4-07", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1719", 
+        "SensorType": "THL", 
+        "SerialNumber": "6b:9f:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "46inch", 
+        "Orientation": "core", 
+        "RoomNumber": "426", 
+        "RoomType": "private"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1719/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "1cb91fb5-33a3-5160-ac14-c81246337c35"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "19", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1630", 
+        "SensorType": "THL", 
+        "SerialNumber": "57:cf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1630/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "77c4f69a-c9f8-5b90-b1be-1be45919eb38"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "19", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1630", 
+        "SensorType": "THL", 
+        "SerialNumber": "57:cf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1630/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "84cf0163-302e-5ffc-a672-00f51aecb035"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "19", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1630", 
+        "SensorType": "THL", 
+        "SerialNumber": "57:cf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1630/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "a988771e-b6c8-5b2e-9c23-ad88e5efe3e6"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "26", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1625", 
+        "SensorType": "THL", 
+        "SerialNumber": "cc:a3:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1625/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "e57a5324-0129-569d-94b4-ec6659f15186"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "26", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1625", 
+        "SensorType": "THL", 
+        "SerialNumber": "cc:a3:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1625/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "ba8ac277-6a73-5a7d-9d0d-7a8b58858474"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "26", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1625", 
+        "SensorType": "THL", 
+        "SerialNumber": "cc:a3:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1625/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "26214b83-5adc-5f24-b41f-c132781b3830"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "27", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1626", 
+        "SensorType": "THL", 
+        "SerialNumber": "4e:cc:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1626/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "3d6398d0-b5b9-58e6-ae69-644b3fa1fdfa"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "27", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1626", 
+        "SensorType": "THL", 
+        "SerialNumber": "4e:cc:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1626/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "64a9c9db-c0f9-5a13-beb4-63fb8b3b7c54"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "27", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1626", 
+        "SensorType": "THL", 
+        "SerialNumber": "4e:cc:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1626/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "e0ee32ba-bac9-5f50-a728-135609ffb3ab"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "27", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1626", 
+        "SensorType": "THL", 
+        "SerialNumber": "c8:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyrd/1626/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "0182857f-7a59-5f0b-962e-73510f8a3e50"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "27", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1626", 
+        "SensorType": "THL", 
+        "SerialNumber": "c8:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyrd/1626/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "9b7cd842-e7bf-5935-8def-00df4c7aeeea"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "27", 
+        "VAV": "S4-12", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1626", 
+        "SensorType": "THL", 
+        "SerialNumber": "c8:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyrd/1626/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "4520b501-f921-5629-acc2-f626a218efd6"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "28", 
+        "VAV": "S4-12, S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1627", 
+        "SensorType": "THL", 
+        "SerialNumber": "1e:a1:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1627/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "d3fe1d4c-f007-5642-9e66-d311c6f9882c"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "28", 
+        "VAV": "S4-12, S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1627", 
+        "SensorType": "THL", 
+        "SerialNumber": "1e:a1:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1627/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "3689e8aa-1ba5-5aed-9bd2-0a00c7455e3c"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "28", 
+        "VAV": "S4-12, S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1627", 
+        "SensorType": "THL", 
+        "SerialNumber": "1e:a1:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1627/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "4fa00ebf-6387-5183-b987-2b54e1031ec4"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "29", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1628", 
+        "SensorType": "THL", 
+        "SerialNumber": "ef:d7:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyhb00/1628/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "8bc6a473-384a-5ca3-ad14-4caa6b1a5ec8"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "29", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1628", 
+        "SensorType": "THL", 
+        "SerialNumber": "ef:d7:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyhb00/1628/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "1375f5c4-ff0e-5d27-b2af-5a7c94e3ed53"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "29", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1628", 
+        "SensorType": "THL", 
+        "SerialNumber": "ef:d7:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyhb00/1628/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "6b0b7685-fd48-5d27-840c-d730ed6681d7"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "30", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1629", 
+        "SensorType": "THL", 
+        "SerialNumber": "12:15:d7:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1629/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "e2a87829-e5e1-5138-9543-59d868a2a047"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "30", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1629", 
+        "SensorType": "THL", 
+        "SerialNumber": "12:15:d7:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1629/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "ba5560ac-fe0f-5d37-a869-0e1b14f1ce80"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay03 (high), Relay04 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "30", 
+        "VAV": "S4-18", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1629", 
+        "SensorType": "THL", 
+        "SerialNumber": "12:15:d7:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1629/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "d0184967-52c2-5c3f-ad90-6e49f10faa7e"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay07 (high), Relay08 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "20", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1631", 
+        "SensorType": "THL", 
+        "SerialNumber": "2d:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1631/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "29fdf95e-0b9e-5191-87d2-bab66a248b2a"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay07 (high), Relay08 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "20", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1631", 
+        "SensorType": "THL", 
+        "SerialNumber": "2d:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1631/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "9d95dae1-228d-5f97-8b7d-3493a1e7bc54"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay07 (high), Relay08 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "20", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1631", 
+        "SensorType": "THL", 
+        "SerialNumber": "2d:bf:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1631/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "41d4673c-0926-5c58-91a3-7c440ed6962c"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay07 (high), Relay08 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "25", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1624", 
+        "SensorType": "THL", 
+        "SerialNumber": "9f:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyfz00/1624/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "cb8b18c1-7965-5369-9fd8-8e7a0e1d1c59"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay07 (high), Relay08 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "25", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1624", 
+        "SensorType": "THL", 
+        "SerialNumber": "9f:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyfz00/1624/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "70ce8691-6444-5345-a75a-3a9c533070ee"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay07 (high), Relay08 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "25", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1624", 
+        "SensorType": "THL", 
+        "SerialNumber": "9f:b6:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyfz00/1624/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "2a756197-f1b3-56eb-ab87-a61111bdd80b"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "21", 
+        "VAV": "S4-04", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1632", 
+        "SensorType": "THL", 
+        "SerialNumber": "2d:b1:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1632/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "1dc6c4da-98af-5fdc-b751-bedd4c99be83"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "21", 
+        "VAV": "S4-04", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1632", 
+        "SensorType": "THL", 
+        "SerialNumber": "2d:b1:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1632/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "87e6a164-4956-55ea-93a9-389651d0822b"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "21", 
+        "VAV": "S4-04", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1632", 
+        "SensorType": "THL", 
+        "SerialNumber": "2d:b1:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1632/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "6d03bfef-f70e-5c58-953c-d9b52c41835c"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "23", 
+        "VAV": "S4-04", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1622", 
+        "SensorType": "THL", 
+        "SerialNumber": "9:d8:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1622/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "83920a73-43b5-53c4-be51-baee4486377d"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "23", 
+        "VAV": "S4-04", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1622", 
+        "SensorType": "THL", 
+        "SerialNumber": "9:d8:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1622/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "da6a0761-d542-5a88-9222-9963ebfccb3d"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "23", 
+        "VAV": "S4-04", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1622", 
+        "SensorType": "THL", 
+        "SerialNumber": "9:d8:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyas00/1622/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "c796ac06-e7fc-5127-b105-ebc3101a43be"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "24", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1623", 
+        "SensorType": "THL", 
+        "SerialNumber": "78:b8:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyde00/1623/humidity", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "%RH"
+    }, 
+    "uuid": "b147db33-604a-532d-83fd-e4b6dba83e52"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "24", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1623", 
+        "SensorType": "THL", 
+        "SerialNumber": "78:b8:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyde00/1623/light", 
+    "Properties": {
+      "ReadingType": "long", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "lx"
+    }, 
+    "uuid": "6ec0cea4-bf71-5dab-90e2-3cdd550fcfab"
+  }, 
+  {
+    "Metadata": {
+      "Extra": {
+        "LightRelay": "W86007: Relay09 (high), Relay10 (low)", 
+        "SamplingRate": "5sec", 
+        "SetNumber": "24", 
+        "VAV": "S4-13", 
+        "WindowType": "no"
+      }, 
+      "Instrument": {
+        "PartNumber": "1623", 
+        "SensorType": "THL", 
+        "SerialNumber": "78:b8:d5:15:0:0"
+      }, 
+      "Location": {
+        "Building": "SDH", 
+        "Floor": "4", 
+        "Height": "54inch", 
+        "Orientation": "core", 
+        "RoomType": "open", 
+        "SensorOrientation": "horizontal"
+      }, 
+      "SourceName": "KETI Motes"
+    }, 
+    "Path": "/ttyde00/1623/temperature", 
+    "Properties": {
+      "ReadingType": "double", 
+      "Timezone": "America/Los_Angeles", 
+      "UnitofMeasure": "C"
+    }, 
+    "uuid": "31c922de-5c59-515c-8047-7505f8427793"
+  }
+]
