@@ -30,3 +30,10 @@ Steps (for SDH):
   - [ ] Need image of the floor
   - [ ] Need positions of the KETI motes
   - [ ] Divide floor into microzones and place KETImotes, dampers, thermostats, etc inside them
+
+
+### Implementations:
+
+Libs to look at:
+https://github.com/jmschrei/pomegranate
+http://pgmpy.org/estimators.html
