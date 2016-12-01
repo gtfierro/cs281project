@@ -17,3 +17,5 @@
 - robust anomaly detection for large-scale sensor data:
     p31_chakrabarti
 
+Look for empirical estimations of u-value, r-value
+Paul Raftery work
