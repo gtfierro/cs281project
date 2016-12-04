@@ -10,7 +10,11 @@ ADD idea1.csv idea1.csv
 ADD sdh_sub.csv sdh_sub.csv
 ADD Gedges.mat Gedges.mat
 ADD subGedges.mat subGedges.mat
+ADD sdh_small_edges.mat sdh_small_edges.mat
+ADD sdh_small_data.csv sdh_small_data.csv
+ADD sdh_small_edges_30m.mat sdh_small_edges_30m.mat
+ADD sdh_small_data_30m.csv sdh_small_data_30m.csv
 ADD IPF.m IPF.m
 
 # where the entity file goes
-ENTRYPOINT [ "/usr/bin/octave-cli" ]
+ENTRYPOINT [ "/bin/bash" ]
