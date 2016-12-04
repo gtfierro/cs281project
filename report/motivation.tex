@@ -1,0 +1,31 @@
+\section{Problem Description}
+
+To motivate the problem of estimating thermal coupling between microzones, we provide a brief overview of buildings and their control systems.
+Then, we discuss the potential utility of statistical models over complex physical building models, and how we apply parameter estimation in an Ising model to a particular building modeling problem.
+
+\subsection{Motivation}
+
+
+
+\if 0
+Why Buildings?
+- buildings use 40% of energy:
+    - have lots of sensors, automated control systems
+    - these are often incomplete or out of date
+    - much manual effort to repair this, or to build up metadata
+    - metadata can help buildings be more efficient and comfortable:
+        - simultaneous heating/cooling
+        - misplaced thermostats (like behind 410 soda screen)
+    - want to reason about how buildings behave:
+      - building models one approach, but expensive and hard to do and become out of date
+      - need another method, one that can be somewhat automated and not require
+        immense amounts of domain expertise
+
+Problem Description:
+- buildings assume temperature is uniform across an HVAC zone: how true is this really?
+    - two complementary questions:
+      1. Can we determine the nature of thermal coupling between sub-hvac-zones?
+      2. Could we reconstruct the assignment of rooms to hvac zones from this information?
+    - We don't address the second, but we explore the first
+
+\fi
