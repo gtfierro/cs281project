@@ -11,6 +11,7 @@ PDF = main.pdf
 pdf: $(PDF)
 
 %.pdf: %.tex $(TEXFILES)
+	rm -f *.aux *.out *.bbl *.blg *.toc
 	pdflatex $(FLAGS) $*
 	bibtex $*
 	pdflatex $(FLAGS) $*
