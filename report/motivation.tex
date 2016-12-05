@@ -40,14 +40,30 @@ The intention of this approach is to improve on heavyweight and brittle building
 
 \subsection{Applying the Ising Model}
 
-The crux of our approach is as follows
+Our approach is as follows:
 
 \begin{itemize}
-\item to model the rooms and their connections (be this a door or a window or open air) as nodes and edges in a pairwise undirected graph
+\item to decompose a physical space consisting of rooms and hallways into ``microzones''
+\item to model the microzones and their connections (be this a door or a window or open air) as nodes and edges in a pairwise undirected graph
 \item to use real-world temperature data gathered from an array of wireless sensor motes deployed across the rooms and microzones as data on which we can run parameter estimation to retrieve the edge potentials
-\item the 
-
+\item the edge potentials will indicate the tendency of two neighboring microzones to experience similar changes in temperature, which we can interpret as a measure of the thermal coupling between those two microzones
 \end{itemize}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\linewidth]{figs/Soda_AMP_microzones}
+\caption{Microzones in the south-west corner of Soda Hall's AMP lab. Red numbers are zone labels; blue numbers are sensor labels. Microzones were chosen such that there was a sensor in each zone, with the exception of node 6 which represents the hallway.}
+\label{fig:soda_amp_microzones}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\linewidth]{figs/SodaEdgeGraph}
+\caption{The undirected graph representing the south-west corner of Soda Hall's AMP lab. Edges reflect physical connections between rooms -- either by door or by open air. We also explore a fully-connected graph with the same set of nodes.}
+\label{fig:soda_amp_microzones}
+\end{figure}
 
 
 \if 0
