@@ -84,7 +84,7 @@ function [logLhood Theta] = IPF(data, edges)
   logLhood = N*sum(sum(sum(Emp.*Theta))) - N*log(Z);
 
   % Check for convergence
-if (logLhood - logOld < 1e-14)
+if (logLhood - logOld < 1e-8)
   fprintf('Converges after %d batch iterations!\n', iter);
   break;
 elseif (iter == maxIter)
