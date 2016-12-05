@@ -6,8 +6,29 @@
 \includegraphics[width=1.3in]{figs/30minmin00conf} & \includegraphics[width=1.3in]{figs/30minmin01conf} & \includegraphics[width=1.3in]{figs/30minmin10conf} & \includegraphics[width=1.3in]{figs/30minmin11conf} \\
 (a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
 \end{tabular}
-\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:physical_soda_edges}).}
+\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:physical_soda_edges}). This model had the \emph{highest} log-likelihood of the IPF run on the physical graph.}
 \label{fig:30minminphysical}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{tabular}{cccc}
+\includegraphics[width=1.3in]{figs/30secmin00conf} & \includegraphics[width=1.3in]{figs/30secmin01conf} & \includegraphics[width=1.3in]{figs/30secmin10conf} & \includegraphics[width=1.3in]{figs/30secmin11conf} \\
+(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+\end{tabular}
+\caption{Edge potentials for the IPF run using 30 second buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:physical_soda_edges}). This model had the \emph{lowest} log-likelihood of the IPF run on the physical graph.}
+\label{fig:30secminphysical}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{tabular}{cc}
+\includegraphics[width=1.5in]{figs/physical_loglikelihood} & \includegraphics[width=1.5in]{figs/full_loglikelihood} \\
+(a) Physical Graph IPF Log Likelihoods & (b) Fully-connected Graph IPF Log Likelihoods \\[6pt]
+\end{tabular}
+\caption{Plots of the log-likelihood of the IPF runs on the physical and fully-connected graph across different bucket sizes and bucket aggregation functions. We can see that at as the amount of aggregation increases, the log-likelihood increases, and the choice of aggregation function matters less. This is in line with what we would expect, but the converged parameters in the coarser cases may lose some of the subtle interactions between microzones}
+\label{fig:loglikelihood}
 \end{figure}
 
 \if 0
