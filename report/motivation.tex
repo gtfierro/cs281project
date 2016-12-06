@@ -68,13 +68,16 @@ Our approach is as follows:
 
 \textbf{Graph Structure:} Figure~\ref{fig:soda_amp_microzones} depicts the set of microzones and temperature sensors we chose to examine for this study.
 We consider two graph structures for this set of microzones: the ``physical'' graph and the fully-connected graph.
-The physical graph (Figure~\ref{fig:soda_edges}(a)) has edges between zones if there is some sort of direct physical connection between the two microzones that is not a wall. 
+The physical graph (Figure~\ref{fig:soda_edges}(a)) has edges between zones if there is some sort of direct physical connection between the two microzones that is not a wall, the intention being that these edges are those along which we are most likely going to see some sort of thermal influence.
 Between microzones 1/2, 2/6 and 10/11, this is air. 
 The 5/6 edge has a curtain separating a lounge from the hallway, and the 2/3 edge is a large window -- all other edges are formed by doors.
 
 While the physical graph captures the structure of the most-likely physical and thermal interactions we are interested in, it does require an amount of domain expertise and familiarity with the building's structure to create.
 For this reason, we also explore a fully-connected graph (Figure~\ref{fig:soda_edges}(b)) that is both more expressive and generalizable than the physical graph.
 This graph still requires the decomposition of the physical space into microzones (here the two graphs use the same nodes), but does not require the manual effort of determining which microzones should be connected to others.
+
+\textbf{Ising Model:} We chose to model the physical interactions between microzones as an Ising model with discrete random variables at each node.
+
 
 
 \if 0
