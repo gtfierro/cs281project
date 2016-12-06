@@ -9,6 +9,16 @@ However, the temperature data that \emph{is} available from BMS or otherwise fro
 \cite{kusiak2010modeling} explores a family of data-driven approaches to HVAC modeling, focusing on support vector machines and multi-layer perceptrons for predicting energy expenditure under different HVAC control parameters.
 While effective from a predictive standpoint, their models do not actually account for occupant comfort in the building, instead making the same broken assumption that temperature is uniform across an HVAC zone.
 
+\cite{afram2014review} presents a survey of modeling methods for HVAC systems, comparing physics-based simulation methods with data-driven statistical approaches.
+It concludes that physics based models generalize well, but typically have poor accuracy compared to data-driven approaches; however, it also finds that data-driven methods fail to generalize beyond whatever training data is available.
+As before, the concentration of the survey is to predict energy usage and temperature in HVAC systems rather than evaluating the validity of the structure of the HVAC system.
+
+In the area of building science, there is a growing set of literature on how to infer the structure of an HVAC system. \cite{pritoni2015short} uses an intrusive method for determining which AHUs are connected to which VAVs.
+By perturbing HVAC control parameters to induce changes in the HVAC zones, Pritoni et al can reconstruct the mapping of AHU to VAV to HVAC zone to room; in combination with deployed temperature sensors, this method could more accurately determine the strength of thermal coupling between microzones.
+However, the intrusive nature of the method means this method cannot be applied to buildings where actuating HVAC setpoints is disallowed or impossible.
+
+Similarly, \cite{koc2014comparison}
+
 \if 0
 Prior work:
 - building modeling
