@@ -53,7 +53,7 @@ The intention of this approach is to improve on heavyweight and brittle building
 \includegraphics[width=.4\linewidth]{figs/SodaEdgeGraph} & \includegraphics[width=.4\linewidth]{figs/SodaFullEdgeGraph} \\
 (a) Physical Graph  & (b) Fully-connected Graph \\[6pt]
 \end{tabular}
-\caption{The undirected graph representing the south-west corner of Soda Hall's AMP lab. Edges reflect physical connections between rooms -- either by door or by open air. We also explore a fully-connected graph with the same set of nodes. We refer to this graph in the paper as the \emph{physical graph}.}
+\caption{The undirected graphs representing the south-west corner of Soda Hall's AMP lab. Graph (a) is the ``physical graph'' representing the most likely avenues of thermal influence acros microzones; graph (b) is a fully-connected graph.}
 \label{fig:soda_edges}
 \end{figure}
 
@@ -77,6 +77,16 @@ For this reason, we also explore a fully-connected graph (Figure~\ref{fig:soda_e
 This graph still requires the decomposition of the physical space into microzones (here the two graphs use the same nodes), but does not require the manual effort of determining which microzones should be connected to others.
 
 \textbf{Ising Model:} We chose to model the physical interactions between microzones as an Ising model with discrete random variables at each node.
+By using discrete variables, we can apply the iterative proportional fitting (IPF) algorithm to do parameter estimation in the graph for the edge potentials.
+Specifically, each node $x_i$ in the graph has a value in $\lbrace 0, 1\rbrace$.
+We designate the value of node $i$ in the graph at time $k$ as $x_i^{(k)}$.
+$x_i^{(k)} = 1$ if the temperature at node $i$ went up between times $k-1$  and $k$, and 0 otherwise.
+
+While a somewhat drastic oversimplification of the node states, it is worth exploring the utility of a model that is guaranteed to converge, and will do so in a reasonable amount of time under commodity computing resources.
+As the results show, this estimated parameters on this coarse model \emph{do} reflect the expected thermal relationships betweeen microzones, and suggest a few interesting relationships.
+A more expressive discrete model might take the form of an N-state vector at each node, where the N-state vector represents a quantization of a temperature range; the vector would be 1 for the range containing the temperature reading at time $k$.
+However, the increase in the state space of each node means an exponential increase in the state space needed to represent the full problem.
+In our initial experiments, we could not get IPF to converge on these graphs, so we focused our efforts on binary nodes.
 
 
 
