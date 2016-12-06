@@ -40,17 +40,6 @@ The intention of this approach is to improve on heavyweight and brittle building
 
 \subsection{Applying the Ising Model}
 
-Our approach is as follows:
-
-\begin{itemize}
-\item to decompose a physical space consisting of rooms and hallways into ``microzones''
-\item to model the microzones and their connections (be this a door or a window or open air) as nodes and edges in a pairwise undirected graph
-\item to use real-world temperature data gathered from an array of wireless sensor motes deployed across the rooms and microzones as data on which we can run parameter estimation to retrieve the edge potentials
-\item the edge potentials will indicate the tendency of two neighboring microzones to experience similar changes in temperature, which we can interpret as a measure of the thermal coupling between those two microzones
-\end{itemize}
-
-
-
 \begin{figure}
 \centering
 \includegraphics[width=.5\linewidth]{figs/Soda_AMP_microzones}
@@ -58,20 +47,34 @@ Our approach is as follows:
 \label{fig:soda_amp_microzones}
 \end{figure}
 
-
 \begin{figure}
 \centering
-\includegraphics[width=.5\linewidth]{figs/SodaEdgeGraph}
+\begin{tabular}{cc}
+\includegraphics[width=.4\linewidth]{figs/SodaEdgeGraph} & \includegraphics[width=.4\linewidth]{figs/SodaFullEdgeGraph} \\
+(a) Physical Graph  & (b) Fully-connected Graph \\[6pt]
+\end{tabular}
 \caption{The undirected graph representing the south-west corner of Soda Hall's AMP lab. Edges reflect physical connections between rooms -- either by door or by open air. We also explore a fully-connected graph with the same set of nodes. We refer to this graph in the paper as the \emph{physical graph}.}
-\label{fig:physical_soda_edges}
+\label{fig:soda_edges}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics[width=.5\linewidth]{figs/SodaFullEdgeGraph}
-\caption{The fully connected undirected graph of the microzones in the south-west corner of Soda Hall's AMP lab. While this graphical model is more easily generalized (e.g. it does not require domain knowledge of the building), it remains to be seen if this captures the same sorts of thermal coupling as the more physically accurate model. We refer to this graph in the paper as the \emph{fully-connected graph}.}
-\label{fig:full_soda_edges}
-\end{figure}
+Our approach is as follows:
+
+\begin{itemize}[noitemsep, nolistsep]
+\item to decompose a physical space consisting of rooms and hallways into ``microzones''
+\item to model the microzones and their connections (be this a door or a window or open air) as nodes and edges in a pairwise undirected graph
+\item to use real-world temperature data gathered from an array of wireless sensor motes deployed across the rooms and microzones as data on which we can run parameter estimation to retrieve the edge potentials
+\item the edge potentials will indicate the tendency of two neighboring microzones to experience similar changes in temperature, which we can interpret as a measure of the thermal coupling between those two microzones
+\end{itemize}
+
+\textbf{Graph Structure:} Figure~\ref{fig:soda_amp_microzones} depicts the set of microzones and temperature sensors we chose to examine for this study.
+We consider two graph structures for this set of microzones: the ``physical'' graph and the fully-connected graph.
+The physical graph (Figure~\ref{fig:soda_edges}(a)) has edges between zones if there is some sort of direct physical connection between the two microzones that is not a wall. 
+Between microzones 1/2, 2/6 and 10/11, this is air. 
+The 5/6 edge has a curtain separating a lounge from the hallway, and the 2/3 edge is a large window -- all other edges are formed by doors.
+
+While the physical graph captures the structure of the most-likely physical and thermal interactions we are interested in, it does require an amount of domain expertise and familiarity with the building's structure to create.
+For this reason, we also explore a fully-connected graph (Figure~\ref{fig:soda_edges}(b)) that is both more expressive and generalizable than the physical graph.
+This graph still requires the decomposition of the physical space into microzones (here the two graphs use the same nodes), but does not require the manual effort of determining which microzones should be connected to others.
 
 
 \if 0
