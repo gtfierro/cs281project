@@ -88,6 +88,19 @@ A more expressive discrete model might take the form of an N-state vector at eac
 However, the increase in the state space of each node means an exponential increase in the state space needed to represent the full problem.
 In our initial experiments, we could not get IPF to converge on these graphs, so we focused our efforts on binary nodes.
 
+\textbf{Interpreting fitted edge potentials:} The fitted edge potentials for an edge between nodes $i$ and $j$ will take the form of
+
+\begin{equation}
+W_{ij} = 
+\begin{bmatrix}
+w_{i=0,j=0} & w_{i=0,j=1} \\
+w_{i=1,j=0} & w_{i=1,j=1} \\
+\end{bmatrix}
+\end{equation}
+
+where each entry $w$ represents the strength of that arrangement of $i$ and $j$ values.
+More concretely, the entries $w_{i=0,j=0}$ and $w_{i=1,j=1}$ represent how often nodes (microzones) $i$ and $j$ both increase or decrease in temperature, where the entries $w_{i=0,j=1}$ and $w_{i=1,j=0}$ represent how often nodes $i$ and $j$ do \emph{not} experience similar changes in temperature.
+In most applications of the Ising model to physics, the entries of the edge potential matrix are constrained to be positive, but
 
 
 \if 0

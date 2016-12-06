@@ -1,6 +1,6 @@
 \section{Results}
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \begin{tabular}{cccc}
 \includegraphics[width=1.3in]{figs/30minmin00conf} & \includegraphics[width=1.3in]{figs/30minmin01conf} & \includegraphics[width=1.3in]{figs/30minmin10conf} & \includegraphics[width=1.3in]{figs/30minmin11conf} \\
@@ -10,7 +10,7 @@
 \label{fig:30minminphysical}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \begin{tabular}{cccc}
 \includegraphics[width=1.3in]{figs/30secmin00conf} & \includegraphics[width=1.3in]{figs/30secmin01conf} & \includegraphics[width=1.3in]{figs/30secmin10conf} & \includegraphics[width=1.3in]{figs/30secmin11conf} \\
@@ -20,7 +20,7 @@
 \label{fig:30secminphysical}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \begin{tabular}{cccc}
 \includegraphics[width=1.3in]{figs/30secmin00fullconf} & \includegraphics[width=1.3in]{figs/30secmin01fullconf} & \includegraphics[width=1.3in]{figs/30secmin10fullconf} & \includegraphics[width=1.3in]{figs/30secmin11fullconf} \\
@@ -28,6 +28,16 @@
 \end{tabular}
 \caption{Edge potentials for the IPF run using 30 second buckets (aggregated using \texttt{min}) in the fully-connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(b)). This model had the \emph{lowest} log-likelihood of the IPF run on the fully-connected graph.}
 \label{fig:30secminfull}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{cccc}
+\includegraphics[width=1.3in]{figs/30minmin00fullconf} & \includegraphics[width=1.3in]{figs/30minmin01fullconf} & \includegraphics[width=1.3in]{figs/30minmin10fullconf} & \includegraphics[width=1.3in]{figs/30minmin11fullconf} \\
+(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+\end{tabular}
+\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the fully-connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(b)). This model had the \emph{highest} log-likelihood of the IPF run on the fully-connected graph.}
+\label{fig:30minminfull}
 \end{figure}
 
 \begin{figure}
