@@ -1,5 +1,14 @@
 \section{Prior Work}
 
+While there are large bodies of work on both graphical models and thermal modeling of buildings, the intersection of these areas does not have much substantial literature.
+Most approaches to thermal modeling of buildings are driven by simulations of varying detail and fidelity.
+Much of this is due to the lack of detailed temperature data in buildings.
+As of 2012, only 14\% of the buildings in the U.S. deployed building management systems (BMS), which are capable of storing temperature trend data for use in building empirical models~\cite{cbecs2012}.
+However, the temperature data that \emph{is} available from BMS or otherwise from networked thermostats such as the Nest is often only at the granularity of individual HVAC zones, which we have established is insufficient for maintaining comfort in a building.
+
+\cite{kusiak2010modeling} explores a family of data-driven approaches to HVAC modeling, focusing on support vector machines and multi-layer perceptrons for predicting energy expenditure under different HVAC control parameters.
+While effective from a predictive standpoint, their models do not actually account for occupant comfort in the building, instead making the same broken assumption that temperature is uniform across an HVAC zone.
+
 \if 0
 Prior work:
 - building modeling
