@@ -69,7 +69,7 @@ Our approach is as follows:
 \textbf{Graph Structure:} Figure~\ref{fig:soda_amp_microzones} depicts the set of microzones and temperature sensors we chose to examine for this study.
 We consider two graph structures for this set of microzones: the ``physical'' graph and the fully-connected graph.
 The physical graph (Figure~\ref{fig:soda_edges}(a)) has edges between zones if there is some sort of direct physical connection between the two microzones that is not a wall, the intention being that these edges are those along which we are most likely going to see some sort of thermal influence.
-Between microzones 1/2, 2/6 and 10/11, this is air. 
+Between microzones 1/2, 2/6 and 10/11, this is air.
 The 5/6 edge has a curtain separating a lounge from the hallway, and the 2/3 edge is a large window -- all other edges are formed by doors.
 
 While the physical graph captures the structure of the most-likely physical and thermal interactions we are interested in, it does require an amount of domain expertise and familiarity with the building's structure to create.
@@ -91,7 +91,7 @@ In our initial experiments, we could not get IPF to converge on these graphs, so
 \textbf{Interpreting fitted edge potentials:} The fitted edge potentials for an edge between nodes $i$ and $j$ will take the form of
 
 \begin{equation}
-W_{ij} = 
+W_{ij} =
 \begin{bmatrix}
 w_{i=0,j=0} & w_{i=0,j=1} \\
 w_{i=1,j=0} & w_{i=1,j=1} \\
@@ -100,8 +100,10 @@ w_{i=1,j=0} & w_{i=1,j=1} \\
 
 where each entry $w$ represents the strength of that arrangement of $i$ and $j$ values.
 More concretely, the entries $w_{i=0,j=0}$ and $w_{i=1,j=1}$ represent how often nodes (microzones) $i$ and $j$ both increase or decrease in temperature, where the entries $w_{i=0,j=1}$ and $w_{i=1,j=0}$ represent how often nodes $i$ and $j$ do \emph{not} experience similar changes in temperature.
-In most applications of the Ising model to physics, the entries of the edge potential matrix are constrained to be positive, but
+In most applications of the Ising model to physics, the entries of the edge potential matrix are constrained to be positive, but here we allow entries of $W$ to be negative to allow the model to express how unlikely a state configuration is.
 
+If two rooms have high thermal coupling, we expect $w_{i=0,j=0}$ and $w_{i=1,j=1}$ to be positive and $w_{i=0,j=1}$ and $w_{i=1,j=0}$ to be negative; the more positive the diagonal, the stronger the thermal coupling between microzones $i$ and $j$.
+If instead the entries of $W$ are more uniform -- or at least if $w_{i=0,j=1}$ and $w_{i=1,j=0}$ are positive -- then microzones $i$ and $j$ do not experience much thermal correlation.
 
 \if 0
 Why Buildings?
