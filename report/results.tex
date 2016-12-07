@@ -33,25 +33,25 @@ At the 30-minute aggregation level, the fully-connected graph has a log-likeliho
 \label{fig:30minminphysical}
 \end{figure}
 
-\begin{figure}[ht]
-\centering
-\begin{tabular}{cccc}
-\includegraphics[width=1.3in]{figs/30secmin00conf} & \includegraphics[width=1.3in]{figs/30secmin01conf} & \includegraphics[width=1.3in]{figs/30secmin10conf} & \includegraphics[width=1.3in]{figs/30secmin11conf} \\
-(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
-\end{tabular}
-\caption{Edge potentials for the IPF run using 30 second buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(a)). This model had the \emph{lowest} log-likelihood of the IPF run on the physical graph.}
-\label{fig:30secminphysical}
-\end{figure}
+%\begin{figure}[ht]
+%\centering
+%\begin{tabular}{cccc}
+%\includegraphics[width=1.3in]{figs/30secmin00conf} & \includegraphics[width=1.3in]{figs/30secmin01conf} & \includegraphics[width=1.3in]{figs/30secmin10conf} & \includegraphics[width=1.3in]{figs/30secmin11conf} \\
+%(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+%\end{tabular}
+%\caption{Edge potentials for the IPF run using 30 second buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(a)). This model had the \emph{lowest} log-likelihood of the IPF run on the physical graph.}
+%\label{fig:30secminphysical}
+%\end{figure}
 
-\begin{figure}[ht]
-\centering
-\begin{tabular}{cccc}
-\includegraphics[width=1.3in]{figs/30secmin00fullconf} & \includegraphics[width=1.3in]{figs/30secmin01fullconf} & \includegraphics[width=1.3in]{figs/30secmin10fullconf} & \includegraphics[width=1.3in]{figs/30secmin11fullconf} \\
-(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
-\end{tabular}
-\caption{Edge potentials for the IPF run using 30 second buckets (aggregated using \texttt{min}) in the fully-connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(b)). This model had the \emph{lowest} log-likelihood of the IPF run on the fully-connected graph.}
-\label{fig:30secminfull}
-\end{figure}
+%\begin{figure}[ht]
+%\centering
+%\begin{tabular}{cccc}
+%\includegraphics[width=1.3in]{figs/30secmin00fullconf} & \includegraphics[width=1.3in]{figs/30secmin01fullconf} & \includegraphics[width=1.3in]{figs/30secmin10fullconf} & \includegraphics[width=1.3in]{figs/30secmin11fullconf} \\
+%(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+%\end{tabular}
+%\caption{Edge potentials for the IPF run using 30 second buckets (aggregated using \texttt{min}) in the fully-connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(b)). This model had the \emph{lowest} log-likelihood of the IPF run on the fully-connected graph.}
+%\label{fig:30secminfull}
+%\end{figure}
 
 \begin{figure}[ht]
 \centering
@@ -65,7 +65,7 @@ At the 30-minute aggregation level, the fully-connected graph has a log-likeliho
 
 
 After running IPF, we get back an array of $2\times 2$ matrices, each representing an edge parameter from the graphical structure.
-For each element in the pairwise edge parameter matrix --- (0,0), (0,1), (1,0) and (1,1) --- we plot the confusion matrix for all edges in the graph (Figures ~\ref{fig:30secminphysical}\ref{fig:30secminfull}\ref{fig:30minminphysical}\ref{fig:30minminfull}).
+For each element in the pairwise edge parameter matrix --- (0,0), (0,1), (1,0) and (1,1) --- we plot the confusion matrix for all edges in the graph (Figures ~\ref{fig:30minminphysical}\ref{fig:30minminfull}).
 We now give a brief overview of what we expect to find in each of these matrices:
 
 \begin{itemize}[noitemsep,nolistsep]
@@ -101,8 +101,11 @@ While the highly aggregated data run against the fully-connected graph makes few
 However, it does capture the external thermal effect of sunlight: microzones 1, 10 and 11 all have south-facing windows, which receive a significant amount of sun during the day.
 This can be seen in the high positive values in the (1,1) matrix.
 
-\textbf{30-second Physical Graph} (Figure~\ref{fig:30secminphysical}):
-
-\textbf{30-second Full Graph} (Figure~\ref{fig:30secminfull}):
-
 \subsection{Discussion}
+
+Because this project was primarily an exploration of a particular graphical model approach to a problem traditionally served by brittle, heavyweight, expert-derived building simulation models, it is worth discussing the utility of such a method.
+While we had to drastically simplify the model in order to make solving it computationally tractable, we were able to pull some useful conclusions from the converged estimated parameters.
+However, this run was only on a small subset of a single floor of a single building, using only a week's worth of data.
+In parallel with this small graph representing the south-west corner of Soda Hall's AMPlab, we were also exploring a larger, more connected graph representing the 4th floor of Sutardja Dai Hall using a month's worth of temperature data from a similar sensor deployment.
+Despite running for more than half a week, IPF did not converge on this model, suggesting that IPF's utility is lessened for larger models.
+As a subject of future work, we want to explore more efficient IPF methods to see if parameter estimation on these larger, more useful, graphical models becomes tractable.
