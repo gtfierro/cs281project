@@ -76,4 +76,4 @@ The raw temperature readings constantly fluctuate -- they are accurate to 0.1 Ce
 We smooth the temperature data by applying an aggregation function (we explored \texttt{max}, \texttt{min} and \texttt{mean}) to various window sizes over the data: 30 seconds, 1 minute, 5 minute, 10 minute and 30 minute.
 We predict that the higher the degree of aggregation, the more certain our found parameters will be, but we will lose any subtler interactions between nodes that would have been visible in finer-grained data.
 
-Because of the large number of nodes and datapoints, we iterate our IPF implementation until successive iterations have a difference of less than $1e-8$; this is enough to capture the sign and relative magnitudes of the found edge parameters.
+Because of the large number of nodes and datapoints, we iterate our IPF implementation until successive iterations have a difference of less than $1 \times 10^{-8}$; this is enough to capture the sign and relative magnitudes of the found edge parameters.
