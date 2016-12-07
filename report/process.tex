@@ -51,11 +51,22 @@ From here, we have fine-grained control over which services and individuals can 
 \textbf{Data Processing Pipeline:} The above process publishes sensor readings so that they may be consumed, but it does not actually save the data anywhere.
 This is handled by the pundat~\cite{pundat} service which saves data in the BtrDB timeseries database~\cite{andersen2016btrdb}.
 Using a set of client bindings, we can retrieve data for any set of sensors for any range of time.
+This raw data was downloaded once, and then transformed by a set of Python and Octave scripts to do the data aggregation and iterative proportional fitting respectively.
+
 For this paper, we retrieve all the raw temperature data for the 11 Hamilton motes in the south-west corner of the AMP lab for the week of 11/24/2016 to 11/30/2016; this is roughly 48,000 data points per sensor.
 Figure~\ref{fig:temperature} contains a plot of the raw data.
 This plot tells us two things: firstly, that there are many shared trends in the measured temperature (e.g. groups of motes tend to go up or down together).
 Secondly, that the difference between two streams is likely an important differentiator, which we do not capture in our simple binary Ising model.
 Exploring the \emph{value} of a temperature reading as an indicator for thermal coupling rather than just the sign of the gradient will be the focus of future work.
 
-
 \subsection{Problem Setup}
+
+We implement iterative proportional fitting (IPF, first introduced in \cite{deming1940least}) for the two pairwise Markov Random Fields representing the AMPlab microzones (Figure~\ref{fig:soda_edges}).
+The factorizations of the MRFs are each given by:
+
+\begin{equation}
+P(x_1,\ldots,x_{11}) = \prod_{(i,j) \in E} \exp\lbrace W_{ij}x_ix_j\rbrace 
+\end{equation}
+
+where $W_{ij}$ is the matrix from Equation~\ref{eq:W}.
+The edge set E is determined by which graphical structure we are using, which will be either the physical model or the fully-connected model.

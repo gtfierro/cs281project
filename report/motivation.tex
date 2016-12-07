@@ -86,11 +86,11 @@ While a somewhat drastic oversimplification of the node states, it is worth expl
 As the results show, this estimated parameters on this coarse model \emph{do} reflect the expected thermal relationships betweeen microzones, and suggest a few interesting relationships.
 A more expressive discrete model might take the form of an N-state vector at each node, where the N-state vector represents a quantization of a temperature range; the vector would be 1 for the range containing the temperature reading at time $k$.
 However, the increase in the state space of each node means an exponential increase in the state space needed to represent the full problem.
-In our initial experiments, we could not get IPF to converge on these graphs, so we focused our efforts on binary nodes.
+In our initial experiments, we could not get IPF to converge on these graphs in a reasonable amount of time, so we focused our efforts on binary nodes.
 
 \textbf{Interpreting fitted edge potentials:} The fitted edge potentials for an edge between nodes $i$ and $j$ will take the form of
 
-\begin{equation}
+\begin{equation}\label{eq:W}
 W_{ij} =
 \begin{bmatrix}
 w_{i=0,j=0} & w_{i=0,j=1} \\
