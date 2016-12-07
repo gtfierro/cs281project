@@ -69,7 +69,7 @@ For each element in the pairwise edge parameter matrix --- (0,0), (0,1), (1,0) a
 We now give a brief overview of what we expect to find in each of these matrices:
 
 \begin{itemize}[noitemsep,nolistsep]
-\item (0,0): The more positive an entry in this matrix is, the stronger the thermal \emph{cooling} coupling between the two microzones. 
+\item (0,0): The more positive an entry in this matrix is, the stronger the thermal \emph{cooling} coupling between the two microzones.
 If an entry is low (or negative), then this likely means that one of the zones tends to retain heat rather than dissipate it (which may be due to the HVAC system).
 \item (0,1) and (1,0): These two matrices represent the strength of the negative coupling between two microzones, that is, how likely is it that one will heat and one will cool in the same time window.
 We expect to see mainly negative values here; there are no strong physical mechanisms that would cause a strong inverse thermal connection between two microzones.
@@ -77,19 +77,17 @@ Small values (either positive or negative) suggest that the zones have little to
 \item (1,1): The more positive an entry in this matrix is, the stronger the thermal \emph{heating} coupling between the two microzones.
 Low (but not not negative) values here means that the two microzones do not heat up together that often, which suggests that there is a temperature gradient.
 If these two microzones are in the same HVAC zone (that is, they are supplied by the same VAV), then this is likely a source of discomfort.
-High positive values here suggest that the two zones often heat up together at the same time
+High positive values here suggest that the two zones often heat up together at the same time, which may indicate an unintended thermal coupling.
 \end{itemize}
 
 \subsection{Interesting Edge Potentials}
 
-\subsection{Discussion}
+\textbf{30-minute Physical Graph} (Figure~\ref{fig:30minminphysical}):
 
-\if 0
-Results:
-- write it up! visualize
-- we plot min/max/mean bucket at diff bucket intervals (30s, 1min 5min 10min 30min):
-    - log likelihoods!
-- then we interpret the highest log likelihood models:
-    - fully connected
-    - physically connected
-\fi
+\textbf{30-second Physical Graph} (Figure~\ref{fig:30secminphysical}):
+
+\textbf{30-minute Full Graph} (Figure~\ref{fig:30minminfull}):
+
+\textbf{30-second Full Graph} (Figure~\ref{fig:30secminfull}):
+
+\subsection{Discussion}
