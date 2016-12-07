@@ -65,8 +65,15 @@ We implement iterative proportional fitting (IPF, first introduced in \cite{demi
 The factorizations of the MRFs are each given by:
 
 \begin{equation}
-P(x_1,\ldots,x_{11}) = \prod_{(i,j) \in E} \exp\lbrace W_{ij}x_ix_j\rbrace 
+P(x_1,\ldots,x_{11}) = \prod_{(i,j) \in E} \exp\lbrace W_{ij}x_ix_j\rbrace
 \end{equation}
 
 where $W_{ij}$ is the matrix from Equation~\ref{eq:W}.
-The edge set E is determined by which graphical structure we are using, which will be either the physical model or the fully-connected model.
+Which graphical structure we use determines the edge set $E$, which will come from either the physical model or the fully-connected model.
+
+To run IPF and estimate the edge parameters $W_{ij}$, we need to choose our dataset.
+The raw temperature readings constantly fluctuate -- they are accurate to 0.1 Celsius -- and thus are too noisy to be considered in the binary Ising model.
+We smooth the temperature data by applying an aggregation function (we explored \texttt{max}, \texttt{min} and \texttt{mean}) to various window sizes over the data: 30 seconds, 1 minute, 5 minute, 10 minute and 30 minute.
+We predict that the higher the degree of aggregation, the more certain our found parameters will be, but we will lose any subtler interactions between nodes that would have been visible in finer-grained data.
+
+Because of the large number of nodes and datapoints, we iterate our IPF implementation until successive iterations have a difference of less than $1e-8$; this is enough to capture the sign and relative magnitudes of the found edge parameters.
