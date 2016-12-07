@@ -72,7 +72,7 @@ where $W_{ij}$ is the matrix from Equation~\ref{eq:W}.
 Which graphical structure we use determines the edge set $E$, which will come from either the physical model or the fully-connected model.
 
 To run IPF and estimate the edge parameters $W_{ij}$, we need to choose our dataset.
-The raw temperature readings constantly fluctuate -- they are accurate to 0.1 Celsius -- and thus are too noisy to be considered in the binary Ising model.
+The raw temperature readings constantly fluctuate --- they are accurate to 0.1 Celsius --- and thus are too noisy to be considered in the binary Ising model.
 We smooth the temperature data by applying an aggregation function (we explored \texttt{max}, \texttt{min} and \texttt{mean}) to various window sizes over the data: 30 seconds, 1 minute, 5 minute, 10 minute and 30 minute.
 We predict that the higher the degree of aggregation, the more certain our found parameters will be, but we will lose any subtler interactions between nodes that would have been visible in finer-grained data.
 
