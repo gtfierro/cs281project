@@ -1,6 +1,4 @@
-\section{Results and Discussion}
-
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \begin{tabular}{cc}
 \includegraphics[width=.4\linewidth]{figs/physical_loglikelihood} & \includegraphics[width=.4\linewidth]{figs/full_loglikelihood} \\
@@ -11,27 +9,21 @@ It is also interesting to note that the log-likelihoods of the physical and full
 \label{fig:loglikelihood}
 \end{figure}
 
-In this section, we discuss the results from running IPF over the two MRF graphical structures representing the microzones in the south-west corner of Soda Hall's AMPlab.
+\section{Results and Discussion}
+
+
+In this section, we discuss the results from running IPF over the two MRF graph structures representing the microzones in the south-west corner of Soda Hall's AMPlab.
 
 \subsection{Data Aggregation and Log-Likelihood}
 
 Because we were not sure what method and degree of aggregation would perform best for our task, we explored various degrees and types of aggregation.
 The resulting log-likelihoods from converged IPF runs over the two graphs are illustrated in Figure~\ref{fig:loglikelihood}.
-While the \texttt{mean} aggregation function consistently results in lower log-likelihoods for all window sizes in both graphs, the log-likelihoods to converge to very similar values (-1494, -1504, -1488 for \texttt{mean}, \texttt{min} and \texttt{max} for 30-minute window aggregation on the physical graph, for example) with higher degrees of aggregation, regardless of the choice of function.
+While the \texttt{mean} aggregation function consistently results in lower log-likelihoods for all window sizes in both graphs, the log-likelihoods do converge to very similar values (-1494, -1504, -1488 for \texttt{mean}, \texttt{min} and \texttt{max} for 30-minute window aggregation on the physical graph, for example) with higher degrees of aggregation, regardless of the choice of function.
 Also interesting is the fact that both the fully-connected and physical graphs have similar log-likelihoods.
 At the 30-minute aggregation level, the fully-connected graph has a log-likelihood about 100 higher than that of the physical graph, but as we will discuss below, this higher log-likelihood does not actually correlate with a more useful set of parameters.
 
 \subsection{Edge Parameters}
 
-\begin{figure}[ht]
-\centering
-\begin{tabular}{cccc}
-\includegraphics[width=1.3in]{figs/30minmin00conf} & \includegraphics[width=1.3in]{figs/30minmin01conf} & \includegraphics[width=1.3in]{figs/30minmin10conf} & \includegraphics[width=1.3in]{figs/30minmin11conf} \\
-(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
-\end{tabular}
-\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(a)). This model had the \emph{highest} log-likelihood of the IPF run on the physical graph.}
-\label{fig:30minminphysical}
-\end{figure}
 
 %\begin{figure}[ht]
 %\centering
@@ -53,19 +45,9 @@ At the 30-minute aggregation level, the fully-connected graph has a log-likeliho
 %\label{fig:30secminfull}
 %\end{figure}
 
-\begin{figure}[ht]
-\centering
-\begin{tabular}{cccc}
-\includegraphics[width=1.3in]{figs/30minmin00fullconf} & \includegraphics[width=1.3in]{figs/30minmin01fullconf} & \includegraphics[width=1.3in]{figs/30minmin10fullconf} & \includegraphics[width=1.3in]{figs/30minmin11fullconf} \\
-(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
-\end{tabular}
-\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the fully-connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(b)). This model had the \emph{highest} log-likelihood of the IPF run on the fully-connected graph.}
-\label{fig:30minminfull}
-\end{figure}
-
 
 After running IPF, we get back an array of $2\times 2$ matrices, each representing an edge parameter from the graphical structure.
-For each element in the pairwise edge parameter matrix --- (0,0), (0,1), (1,0) and (1,1) --- we plot the confusion matrix for all edges in the graph (Figures ~\ref{fig:30minminphysical}\ref{fig:30minminfull}).
+For each element in the pairwise edge parameter matrix --- (0,0), (0,1), (1,0) and (1,1) --- we plot the confusion matrix for all edges in the graph (Figures ~\ref{fig:30minminphysical} and \ref{fig:30minminfull}).
 We now give a brief overview of what we expect to find in each of these matrices:
 
 \begin{itemize}[noitemsep,nolistsep]
@@ -80,6 +62,27 @@ If these two microzones are in the same HVAC zone (that is, they are supplied by
 High positive values here suggest that the two zones often heat up together at the same time, which may indicate an unintended thermal coupling.
 \end{itemize}
 
+\begin{figure}[!ht]
+\centering
+\begin{tabular}{cccc}
+\includegraphics[width=1.3in]{figs/30minmin00conf} & \includegraphics[width=1.3in]{figs/30minmin01conf} & \includegraphics[width=1.3in]{figs/30minmin10conf} & \includegraphics[width=1.3in]{figs/30minmin11conf} \\
+(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+\end{tabular}
+\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the physically connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(a)). This model had the \emph{highest} log-likelihood of the IPF run on the physical graph.}
+\label{fig:30minminphysical}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\begin{tabular}{cccc}
+\includegraphics[width=1.3in]{figs/30minmin00fullconf} & \includegraphics[width=1.3in]{figs/30minmin01fullconf} & \includegraphics[width=1.3in]{figs/30minmin10fullconf} & \includegraphics[width=1.3in]{figs/30minmin11fullconf} \\
+(a) (0,0) & (b) (0,1) & (c) (1,0) & (d) (1,1) \\[6pt]
+\end{tabular}
+\caption{Edge potentials for the IPF run using 30 minute buckets (aggregated using \texttt{min}) in the fully-connected Soda AMPlab graph (Figure~\ref{fig:soda_edges}(b)). This model had the \emph{highest} log-likelihood of the IPF run on the fully-connected graph.}
+\label{fig:30minminfull}
+\end{figure}
+
+
 \subsection{Interesting Edge Potentials}
 
 For each of these, refer back to Figure~\ref{fig:soda_amp_microzones} for the physical spaces the microzone numbers represent.
@@ -90,7 +93,7 @@ The highly aggregated data run against the physical graph both confirms our expe
 
 \begin{itemize}[noitemsep,nolistsep]
 \item Microzones 1 and 2, which subdivide an open office space, have a strong thermal coupling as indicated in the (0,0) and (1,1) plots; this is a validation that our parameter estimation matches our expectations of the physical world.
-\item Microzones 2 and 3, which share a window, also appear to have a non-trivial thermal coupling, showing that although the BMS considers them to be in separate HVAC zones, there is some leakage between them.
+\item Microzones 2 and 3, which share a window, have a non-trivial thermal coupling, showing that although the BMS considers them to be in separate HVAC zones, there is some leakage between them.
 \item Microzones 9 and 10, which are separated by a door, have a much higher degree of thermal coupling than any other two microzones connected by a door.
 Because microzone 9 is a rarely-used room, it is worth exploring where the thermostat is placed; if the thermostat is in microzone 9, then the conference room in microzones 10 and 11 will be influenced by the temperature in a room where no one is.
 \end{itemize}

@@ -2,39 +2,15 @@
 
 In this section, we briefly review the architecture of the system for gathering and storing temperature sensor data, and then explain the setup of the parameter estimation problem using iterative proportional fitting.
 
-\if 0
-do we need this?
-Approach: "quick" overview section
-- explicitly what we're going to do
-- how we're going to do it
-- "now we go into more detail" etc
-
-Architecture of System:
-- sensors, database:
-    - KETI and the Soda deployment
-- data processing pipeline:
-    - need for data cleaning; complications w/ sensors ('real world')
-    - how to do data cleaning, the transformations we did
-- Octave script to run IPF, generate edge parameters:
-    - what would the results look like and what would we expect?
-
-Problem Setup:
-- how do decompose the space, the buildings, etc we used into graph
-- go over options in how we could have represented:
-    - bucketing temperature
-    - more nodes; more accurate? more sensors
-\fi
-
-
-
-\subsection{Architecture}
-
-\begin{figure}[ht]
+\begin{figure}[!hb]
 \centering
 \includegraphics[width=.8\linewidth]{figs/281arch}
 \caption{Overview of data acquisition and processing pipeline}
 \label{fig:architecture}
 \end{figure}
+
+\subsection{Architecture}
+
 
 \begin{figure}[ht]
 \centering
@@ -44,7 +20,8 @@ Problem Setup:
 \end{figure}
 
 \textbf{Sensor Infrastructure:} For long-term distributed temperature sensing, we use the Hamilton sensor mote, recently developed at UC Berkeley by Michael Andersen~\cite{hamiltonmote}.
-The Hamilton mote has a low-cost, low-power temperature sensor which it samples at a rate of .1 Hz (once every 10 seconds); the mote is duty-cycled at a rate projected to have it last on a single CR123 battery for over 3 years.
+The Hamilton mote has a low-cost, low-power temperature sensor which it samples at a rate of .1 Hz. 
+The mote is duty-cycled at a rate projected to have it last on a single CR123 battery for over 3 years.
 Each mote sends each temperature reading to a 802.15.4 border router running on a RaspberryPi 3, which forwards the message into a secure publish-subscribe network called BOSSWAVE~\cite{andersen2016enabling}.
 From here, we have fine-grained control over which services and individuals can access the temperature data.
 
