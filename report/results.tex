@@ -51,6 +51,17 @@ It is also interesting to note that the log-likelihoods of the physical and full
 \label{fig:loglikelihood}
 \end{figure}
 
+In this section, we discuss the results from running IPF over the two MRF graphical structures representing the microzones in the south-west corner of Soda Hall's AMPlab.
+
+\subsection{Data Aggregation and Log-Likelihood}
+
+Because we were not sure what method and degree of aggregation would perform best for our task, we explored various degrees and types of aggregation.
+The resulting log-likelihoods from converged IPF runs over the two graphs are illustrated in Figure~\ref{fig:loglikelihood}.
+While the \texttt{mean} aggregation function consistently results in lower log-likelihoods for all window sizes in both graphs, the log-likelihoods to converge to very similar values (-1494, -1504, -1488 for \texttt{mean}, \texttt{min} and \texttt{max} for 30-minute window aggregation on the physical graph, for example) with higher degrees of aggregation, regardless of the choice of function.
+Also interesting is the fact that both the fully-connected and physical graphs have similar log-likelihoods.
+At the 30-minute aggregation level, the fully-connected graph has a log-likelihood about 100 higher than that of the physical graph, but as we will discuss below, this higher log-likelihood does not actually result in a more useful set of parameters.
+
+
 \if 0
 Results:
 - write it up! visualize
