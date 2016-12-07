@@ -25,6 +25,10 @@ Problem Setup:
     - more nodes; more accurate? more sensors
 \fi
 
+
+
+\subsection{Architecture}
+
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.8\linewidth]{figs/281arch}
@@ -32,10 +36,26 @@ Problem Setup:
 \label{fig:architecture}
 \end{figure}
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\linewidth]{figs/temperatureplot}
+\caption{Temperature of the 11 motes in the south-west corner of AMPlab during the week 11/24/2016 to 11/30/2016. The two weekend days are clearly visible, and a good amount of temperature correlation is visible across the traces.}
+\label{fig:temperature}
+\end{figure}
 
-\subsection{Architecture}
+\textbf{Sensor Infrastructure:} For long-term distributed temperature sensing, we use the Hamilton sensor mote, recently developed at UC Berkeley by Michael Andersen~\cite{hamiltonmote}.
+The Hamilton mote has a low-cost, low-power temperature sensor which it samples at a rate of .1 Hz (once every 10 seconds); the mote is duty-cycled at a rate projected to have it last on a single CR123 battery for over 3 years.
+Each mote sends each temperature reading to a 802.15.4 border router running on a RaspberryPi 3, which forwards the message into a secure publish-subscribe network called BOSSWAVE~\cite{andersen2016enabling}.
+From here, we have fine-grained control over which services and individuals can access the temperature data.
 
-
+\textbf{Data Processing Pipeline:} The above process publishes sensor readings so that they may be consumed, but it does not actually save the data anywhere.
+This is handled by the pundat~\cite{pundat} service which saves data in the BtrDB timeseries database~\cite{andersen2016btrdb}.
+Using a set of client bindings, we can retrieve data for any set of sensors for any range of time.
+For this paper, we retrieve all the raw temperature data for the 11 Hamilton motes in the south-west corner of the AMP lab for the week of 11/24/2016 to 11/30/2016; this is roughly 48,000 data points per sensor.
+Figure~\ref{fig:temperature} contains a plot of the raw data.
+This plot tells us two things: firstly, that there are many shared trends in the measured temperature (e.g. groups of motes tend to go up or down together).
+Secondly, that the difference between two streams is likely an important differentiator, which we do not capture in our simple binary Ising model.
+Exploring the \emph{value} of a temperature reading as an indicator for thermal coupling rather than just the sign of the gradient will be the focus of future work.
 
 
 \subsection{Problem Setup}
