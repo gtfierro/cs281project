@@ -82,11 +82,24 @@ High positive values here suggest that the two zones often heat up together at t
 
 \subsection{Interesting Edge Potentials}
 
+For each of these, refer back to Figure~\ref{fig:soda_amp_microzones} for the physical spaces the microzone numbers represent.
+
 \textbf{30-minute Physical Graph} (Figure~\ref{fig:30minminphysical}):
 
-\textbf{30-second Physical Graph} (Figure~\ref{fig:30secminphysical}):
+\begin{itemize}[noitemsep,nolistsep]
+\item Microzones 1 and 2, which subdivide an open office space, have a strong thermal coupling as indicated in the (0,0) and (1,1) plots; this is a validation that our parameter estimation matches our expectations of the physical world.
+\item Microzones 2 and 3, which share a window, also appear to have a non-trivial thermal coupling, showing that although the BMS considers them to be in separate HVAC zones, there is some leakage between them.
+\item Microzones 9 and 10, which are separated by a door, have a much higher degree of thermal coupling than any other two microzones connected by a door.
+Because microzone 9 is a rarely-used room, it is worth exploring where the thermostat is placed; if the thermostat is in microzone 9, then the conference room in microzones 10 and 11 will be influenced by the temperature in a room where no one is.
+\end{itemize}
 
 \textbf{30-minute Full Graph} (Figure~\ref{fig:30minminfull}):
+
+\begin{itemize}[noitemsep,nolistsep]
+\item
+\end{itemize}
+
+\textbf{30-second Physical Graph} (Figure~\ref{fig:30secminphysical}):
 
 \textbf{30-second Full Graph} (Figure~\ref{fig:30secminfull}):
 
