@@ -86,6 +86,8 @@ For each of these, refer back to Figure~\ref{fig:soda_amp_microzones} for the ph
 
 \textbf{30-minute Physical Graph} (Figure~\ref{fig:30minminphysical}):
 
+The highly aggregated data run against the physical graph both confirms our expectations of how the space behaves thermally, but also gives us a family of interesting takeaways that we can use for further exploration:
+
 \begin{itemize}[noitemsep,nolistsep]
 \item Microzones 1 and 2, which subdivide an open office space, have a strong thermal coupling as indicated in the (0,0) and (1,1) plots; this is a validation that our parameter estimation matches our expectations of the physical world.
 \item Microzones 2 and 3, which share a window, also appear to have a non-trivial thermal coupling, showing that although the BMS considers them to be in separate HVAC zones, there is some leakage between them.
@@ -95,9 +97,9 @@ Because microzone 9 is a rarely-used room, it is worth exploring where the therm
 
 \textbf{30-minute Full Graph} (Figure~\ref{fig:30minminfull}):
 
-\begin{itemize}[noitemsep,nolistsep]
-\item
-\end{itemize}
+While the highly aggregated data run against the fully-connected graph makes fewer assumptions about the nature of the physical space and has a similar (in fact, lower) log-likelihood to the 30-minute model run on the physical graph, it does not end up capturing the direct thermal coupling.
+However, it does capture the external thermal effect of sunlight: microzones 1, 10 and 11 all have south-facing windows, which receive a significant amount of sun during the day.
+This can be seen in the high positive values in the (1,1) matrix.
 
 \textbf{30-second Physical Graph} (Figure~\ref{fig:30secminphysical}):
 
